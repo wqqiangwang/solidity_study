@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_x",
+						"type": "uint256[]"
+					}
+				],
+				"name": "fallbackData",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/dataStorage.sol": "DataStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/dataStorage.sol": {
+			"keccak256": "0x22a2c8cf9ea96455b9b5a20ca5c427df529540a6994d6da6033caf65c7e25f16",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed87386255e064754a37531d1c5352f9df1cb70e13abf153568bc94557919169",
+				"dweb:/ipfs/QmNZoqBvxypy1WjLgb1HMZQDcmBANDYuAAydTH23dB5K1V"
+			]
+		}
+	},
+	"version": 1
+}
