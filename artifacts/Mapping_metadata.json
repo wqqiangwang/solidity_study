@@ -6,15 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "fMemorg",
-				"outputs": [],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fStorage",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_Key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_Value",
+						"type": "address"
+					}
+				],
+				"name": "WriteMap",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -22,36 +26,36 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256[]",
-						"name": "_x",
-						"type": "uint256[]"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "fallbackData",
+				"name": "idToAddress",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256[]"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"name": "x",
+				"name": "swapPair",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -71,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/dataStorage.sol": "DataStorage"
+			"study/Mapping.sol": "Mapping"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/dataStorage.sol": {
-			"keccak256": "0x8a8b2f6fe2520d269adca063e7bfa2fed5a7088156e8f9cb2d99eadfb67c7c77",
+		"study/Mapping.sol": {
+			"keccak256": "0x0c17b84d0a5c8a3bc4f9f3e66bf9db0de46fbb5a2b0bc3b27660abbf81ed7cef",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://35367db180822be6c2daaf923980a6277728860132769e9391ed4f48cc8d7152",
-				"dweb:/ipfs/QmPM7jcNUj3iiPu978xsqWJFE7HUTmjZkBT9mDo61pKsG4"
+				"bzz-raw://4a4a1da894f395870a19d5cfe92c754825420ebc36b2b7a2869250613d386192",
+				"dweb:/ipfs/QmVcbruym2QJiJxsMh9Kqo6gaidmPqEvhksVzkXLCWhBkJ"
 			]
 		}
 	},
